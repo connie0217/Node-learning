@@ -1,0 +1,9 @@
+body{
+    background: rgb(241, 213, 133);
+}
+h3{
+    height: 100px;
+    width: 300px;
+    margin: 0 auto;
+    border:1px solid palevioletred;
+}
