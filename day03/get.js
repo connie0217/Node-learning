@@ -12,7 +12,7 @@ const liburl = require('url');
 http.createServer((req,res)=>{
     const url = liburl.parse(req.url);
     const file_name = 'www'+url.pathname;
-    const GET = url.query;//获取到get的数据
+    const GET = url.query;//获取到get的数据z
     fs.readFile(file_name,(error,data)=>{
         if(error){
             res.write('404')

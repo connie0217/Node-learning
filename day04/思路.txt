@@ -1,0 +1,10 @@
+一个简单的用户注册登录
+
+1.先确定下来接口名称：
+
+注册：
+/user?act=reg&user=xxx&pass=xxx
+登陆：
+/user?act=login&user=xxx&pass=xxx2
+
+2.区分对文件的访问和对接口的访问
